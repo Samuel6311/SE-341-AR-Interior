@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 256946037}
   - component: {fileID: 256946036}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: LoadSavedItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1180,13 +1180,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 42
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Placeholder
+  m_Text: '    Placeholder'
 --- !u!222 &689204429
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1257,13 +1257,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 42
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Select Save Location
+  m_Text: '    Select Save Location'
 --- !u!222 &712559108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1403,7 +1403,7 @@ GameObject:
   - component: {fileID: 847440583}
   - component: {fileID: 847440582}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1565,10 +1565,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 108
+    m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
+    m_MinSize: 0
     m_MaxSize: 108
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -1647,13 +1647,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 42
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Select Save Location
+  m_Text: '    Load Saved Item'
 --- !u!222 &1006298739
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1675,7 +1675,7 @@ GameObject:
   - component: {fileID: 1179842431}
   - component: {fileID: 1179842430}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: SelectSaveLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1793,7 +1793,7 @@ GameObject:
   - component: {fileID: 1218612832}
   - component: {fileID: 1218612831}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1912,7 +1912,7 @@ GameObject:
   - component: {fileID: 1312437418}
   - component: {fileID: 1312437417}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1935,7 +1935,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 90, y: -90}
+  m_AnchoredPosition: {x: 70, y: -70}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1312437417
@@ -2098,7 +2098,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 108
+    m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -2132,7 +2132,7 @@ GameObject:
   - component: {fileID: 1369407816}
   - component: {fileID: 1369407819}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2155,7 +2155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 90, y: -90}
+  m_AnchoredPosition: {x: 70, y: -70}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1369407816
@@ -3033,13 +3033,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 42
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Take Screenshot
+  m_Text: '    Take Screenshot'
 --- !u!222 &1844525514
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3142,7 +3142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1935396008
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3215,7 +3215,7 @@ GameObject:
   - component: {fileID: 1960271581}
   - component: {fileID: 1960271580}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: TakeScreenshot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3413,13 +3413,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 42
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Placeholder
+  m_Text: '    Placeholder'
 --- !u!222 &2064398829
 CanvasRenderer:
   m_ObjectHideFlags: 0
