@@ -17,12 +17,12 @@ public class MenuControl : MonoBehaviour
         
     }
 
-    void OpenMenu()
+    public void OpenMenu()
     {
         MenuObject.SetActive(true);
     }
 
-    void CloseMenu()
+    public void CloseMenu()
     {
         MenuObject.SetActive(false);
     }

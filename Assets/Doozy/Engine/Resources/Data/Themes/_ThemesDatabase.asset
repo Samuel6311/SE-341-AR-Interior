@@ -15,4 +15,4 @@ MonoBehaviour:
   ThemesNames:
   - General
   Themes:
-  - {fileID: 11400000, guid: f77c07e75092fe4429cb8053de693ce0, type: 2}
+  - {fileID: 11400000, guid: 5041347805bfbbb429317652a912d28f, type: 2}
