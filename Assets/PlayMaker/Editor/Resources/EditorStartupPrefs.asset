@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   welcomeScreenVersion: '1.9.0 '
   playmakerVersion: 
-  showWelcomeScreen: 1
+  showWelcomeScreen: 0
   showUpgradeGuide: 0
-  lastAutoUpdateSignature: 2019.2.18f1__C:/Users/salar/Downloads/AR Interior/Assets__0.0.0.0
+  lastAutoUpdateSignature: 2019.2.18f1__C:/Users/salar/OneDrive/Documents/GitHub/SE-341-AR-Interior/Assets__0.0.0.0
   useLegacyNetworking: 0
