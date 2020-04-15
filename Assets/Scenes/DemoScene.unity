@@ -1341,11 +1341,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1446653262}
         m_MethodName: SetColour
-        m_Mode: 2
+        m_Mode: 3
         m_Arguments:
-          m_ObjectArgument: {fileID: 255112168}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Image, UnityEngine.UI
-          m_IntArgument: 0
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2905,11 +2905,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1446653262}
         m_MethodName: SetColour
-        m_Mode: 2
+        m_Mode: 3
         m_Arguments:
-          m_ObjectArgument: {fileID: 672683160}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Image, UnityEngine.UI
-          m_IntArgument: 0
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5358,11 +5358,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1446653262}
         m_MethodName: SetColour
-        m_Mode: 2
+        m_Mode: 3
         m_Arguments:
-          m_ObjectArgument: {fileID: 1108746503}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Image, UnityEngine.UI
-          m_IntArgument: 0
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7050,10 +7050,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1446653262}
         m_MethodName: SetColour
-        m_Mode: 2
+        m_Mode: 3
         m_Arguments:
-          m_ObjectArgument: {fileID: 1645805801}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Image, UnityEngine.UI
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7554,7 +7554,7 @@ MonoBehaviour:
         m_MethodName: PlaceFurniture
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8232894020517840605, guid: c93348a79f3c01d4b8a792598776571d,
+          m_ObjectArgument: {fileID: 15474365894995882, guid: a84cf96501dc57d4ca900921870409c2,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1732249603515456374}
   - component: {fileID: 15474365894995881}
   m_Layer: 0
-  m_Name: Barstool
+  m_Name: Barstool 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,21 +90,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 15474365894995882}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61fd88a091a858f4088b10bdb01404fc, type: 3}
+  m_Script: {fileID: 11500000, guid: eb033379fe8a263408ac5d40fba631cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaterialGroup1Parent: {fileID: 849406886161981279}
-  MaterialGroup2Parent: {fileID: 849406886322932629}
-  Group1Material:
+  MaterialGroupParent: {fileID: 849406886161981279}
+  GroupMaterial:
+  - {fileID: 2100000, guid: 8b7aa4104ad39be41b5f64a5636389fe, type: 2}
   - {fileID: 2100000, guid: 639461edcc8289c488d3ed0edbb835c1, type: 2}
   - {fileID: 2100000, guid: cf0b0f4b88cc83446b7972743e5c32c5, type: 2}
-  - {fileID: 2100000, guid: 3c15c400eb4bff54fb414d5c8978063d, type: 2}
   - {fileID: 2100000, guid: 1fec2dfae2d4f9948bdaa93876e605a1, type: 2}
-  Group2Material:
-  - {fileID: 2100000, guid: 0e98fcc07c339294b9c84da13a546aa3, type: 2}
-  - {fileID: 2100000, guid: 8b7aa4104ad39be41b5f64a5636389fe, type: 2}
-  - {fileID: 2100000, guid: 5248089777b82e548afc5b16831eb6a8, type: 2}
-  - {fileID: 2100000, guid: c5cfda4c15a645041923d8af987b4c39, type: 2}
 --- !u!1 &849406886161981279
 GameObject:
   m_ObjectHideFlags: 0
