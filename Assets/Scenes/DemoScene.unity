@@ -3004,12 +3004,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e87a4fd4078d4234dac7ecb93a0c48f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonParent: {fileID: 0}
-  Dropdown: {fileID: 0}
-  ScrollPanel: {fileID: 0}
-  D: {fileID: 0}
+  ButtonParent: {fileID: 1416553707}
+  Dropdown: {fileID: 686431583}
+  ScrollPanel: {fileID: 1071175738}
+  D: {fileID: 686431585}
   DropdownText: 
-  ItemSpace: 0
+  ItemSpace: 20
 --- !u!114 &686431585
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -134,7 +134,9 @@ public class FurniturePlacer : MonoBehaviour
     //Change the colour of a Selected Object
     public void SetColour (Image ButtonImage)
     {
-        //CurrentSelected.
+        MaterialEditor Editor = CurrentSelected.GetComponent<MaterialEditor>();
+
+        Editor.SetGroupMaterial(1);
 
         /*
         MeshRenderer[] MeshRenderers = CurrentSelected.GetComponentsInChildren<MeshRenderer>();
