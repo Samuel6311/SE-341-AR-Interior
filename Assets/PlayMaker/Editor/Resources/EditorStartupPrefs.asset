@@ -15,6 +15,6 @@ MonoBehaviour:
   welcomeScreenVersion: '1.9.0 '
   playmakerVersion: 
   showWelcomeScreen: 1
-  showUpgradeGuide: 0
-  lastAutoUpdateSignature: 2019.2.18f1__C:/Users/Hissamuddin Shaikh/Documents/SE-341-AR-Interior/Assets__0.0.0.0
+  showUpgradeGuide: 1
+  lastAutoUpdateSignature: 2019.2.18f1__C:/Users/User/Documents/GitHub/SE-341-AR-Interior/Assets__0.0.0.0
   useLegacyNetworking: 0

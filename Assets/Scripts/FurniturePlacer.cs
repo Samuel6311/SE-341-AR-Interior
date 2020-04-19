@@ -152,4 +152,12 @@ public class FurniturePlacer : MonoBehaviour
         Destroy(CurrentSelected);
         Deselect();
     }
+
+
+    //Getter function added by Mark Rice for saving script
+
+    public List<GameObject> GetFurniture()
+    {
+        return Furniture;
+    }
 }

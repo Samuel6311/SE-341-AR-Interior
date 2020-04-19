@@ -2547,6 +2547,7 @@ RectTransform:
   - {fileID: 1510865138}
   - {fileID: 697272867}
   - {fileID: 2376779429919932939}
+  - {fileID: 3196520856568469744}
   - {fileID: 3196520854893567564}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -6680,7 +6681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2b49f61c2315454ba2e1e03455bc461, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MenuObject: {fileID: 3196520854893567567}
+  MenuObject: {fileID: 3196520856568469747}
   MenuObject2: {fileID: 0}
   MenuObject3: {fileID: 0}
 --- !u!1 &1544233577
@@ -15972,9 +15973,8 @@ RectTransform:
   - {fileID: 3196520856322079081}
   - {fileID: 3196520855739606773}
   - {fileID: 3196520855236454393}
-  - {fileID: 3196520856568469744}
   m_Father: {fileID: 567207664}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -22713,12 +22713,12 @@ RectTransform:
   - {fileID: 3196520856396331438}
   - {fileID: 3196520854706923342}
   - {fileID: 3196520855222010740}
-  m_Father: {fileID: 3196520854893567564}
-  m_RootOrder: 4
+  m_Father: {fileID: 567207664}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.000043134387}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 750, y: 1300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3196520856568469745

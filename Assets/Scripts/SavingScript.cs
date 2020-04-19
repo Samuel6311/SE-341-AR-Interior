@@ -1,12 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class SavingScript : MonoBehaviour
+
+[System.Serializable]
+public class SavingScript
 {
     //not all variables are accounted for yet
+    public FurniturePlacer ToBeSaved;
+    private List<GameObject> Furniture;
     public GameObject SaveSlot;
     public InputField iField;
 
@@ -14,7 +20,14 @@ public class SavingScript : MonoBehaviour
 
     public void SaveToSlot()
     {
-        //insert code that will perform the saving operation, may need another method as well
+        BinaryFormatter Formatter = new BinaryFormatter();
+        string path = Application.persistentDataPath + "/saveslot.models";
+        FileStream stream = new FileStream(path, FileMode.Create);
+
+        Furniture = ToBeSaved.GetFurniture();
+
+        Formatter.Serialize(stream, ToBeSaved.GetFurniture());
+        stream.Close();
 
         //change the text of the button
         SaveSlot.GetComponent<Text>().text = iField.text;
