@@ -160,4 +160,9 @@ public class FurniturePlacer : MonoBehaviour
     {
         return Furniture;
     }
+
+    public void SetFurniture(List<GameObject> NewFurniture)
+    {
+        Furniture = NewFurniture;
+    }
 }
