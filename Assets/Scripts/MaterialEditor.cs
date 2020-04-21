@@ -19,14 +19,19 @@ public class MaterialEditor : MonoBehaviour
         
     }
 
-    //Preconditions: Parent of Objects to apply material to, New Material to be applied
+    //Preconditions: index of material to be applied
     public void SetGroupMaterial(int index)
     {
-        Transform[] children;
-        children = MaterialGroupParent.GetComponentsInChildren<Transform>();
-        foreach (Transform child in children)
+        Renderer[] children;
+        children = MaterialGroupParent.GetComponentsInChildren<Renderer>();
+        foreach (Renderer rend in children)
         {
-            child.GetComponent<MeshRenderer>().material = GroupMaterial[index];
+            var mats = new Material[rend.materials.Length];
+            for (var j = 0; j < rend.materials.Length; j++)
+            {
+                mats[j] = GroupMaterial[index];
+            }
+            rend.materials = mats;
         }
     }
 }
