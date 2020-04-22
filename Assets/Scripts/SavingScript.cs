@@ -46,7 +46,7 @@ public class SavingScript : MonoBehaviour
 
     public void LoadFromSlot()
     {
-        string path = Application.persistentDataPath + "/" + SaveSlot.GetComponent<Text>().text + ".models";
+        string path = Application.persistentDataPath + "/" + LoadSlot.GetComponent<Text>().text + ".models";
         BinaryFormatter Formatter = new BinaryFormatter();
         FileStream stream = new FileStream(path, FileMode.Open);
 
