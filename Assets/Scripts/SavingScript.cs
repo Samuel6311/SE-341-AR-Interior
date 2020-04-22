@@ -58,6 +58,6 @@ public class SavingScript : MonoBehaviour
 
     public void SetConfirmText()
     {
-        LoadConfirm.GetComponent<Text>().text = "Are you sure you would like to load" + LoadSlot.GetComponent<Text>().text + "?";
+        LoadConfirm.GetComponent<Text>().text = "Are you sure you would like to load " + LoadSlot.GetComponent<Text>().text + "?";
     }
 }
