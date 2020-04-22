@@ -82,6 +82,7 @@ public class FurniturePlacer : MonoBehaviour
         GameObject Obj = Instantiate(prefab, PlacementIndicator.position, Quaternion.identity);
         Furniture.Add(Obj);
         Select(Obj);
+        SetParentFurnitureParent(Obj);
     }
 
     //Functions to allow for Selection of an Object, works with Deselect Function to allow for switching between different Objects.
@@ -126,6 +127,12 @@ public class FurniturePlacer : MonoBehaviour
             //changer.setUIMaterial();
             chestSwapper.setUIMaterial();
         }
+    }
+
+    void SetParentFurnitureParent(GameObject Selected)
+    {
+        Transform ParentObject = GameObject.Find("FurnitureParent").GetComponent<Transform>();
+        Selected.GetComponent<Transform>().SetParent(ParentObject);
     }
 
     //Functio to allow for Deselection of an Object, works with Select Function to allow for switching between different Objects.
