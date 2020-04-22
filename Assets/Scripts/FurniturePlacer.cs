@@ -42,10 +42,12 @@ public class FurniturePlacer : MonoBehaviour
                     if (CurrentSelected != null && hit.collider.gameObject != CurrentSelected)
                     {
                         Select(hit.collider.gameObject);
+                        //Add reassignment of ui material stuff
                     }
                     else if (CurrentSelected == null)
                     {
                         Select(hit.collider.gameObject);
+                        //Add reassignment of ui material
                     }
                 }
                 else
