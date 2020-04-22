@@ -18,13 +18,28 @@ public class FurniturePlacer : MonoBehaviour
 
     //Private Variables to keep track of placed objects
     private List<GameObject> Furniture = new List<GameObject>();
-    private GameObject CurrentSelected;
+    private GameObject CurrentSelected; 
+    
     private Camera Cam;
+    public Material mat;
+
+    //UI Variables
+    public UIIndicatorSwapBarstool barstoolSwapper;
+    public UIIndicatorSwapChest chestSwapper;
+    public UIIndicatorSwapClubChair clubChairSwapper;
+    public UIIndicatorSwapWeirdCouch weirdCouchSwapper;
+    public UIIndicatorSwapCouch couchSwapper;
 
     void Start()
     {
         Cam = Camera.main;
         SelectionUI.SetActive(false);
+        barstoolSwapper = FindObjectOfType(typeof(UIIndicatorSwapBarstool)) as UIIndicatorSwapBarstool;
+        chestSwapper = FindObjectOfType(typeof(UIIndicatorSwapChest)) as UIIndicatorSwapChest;
+        clubChairSwapper = FindObjectOfType(typeof(UIIndicatorSwapClubChair)) as UIIndicatorSwapClubChair;
+        weirdCouchSwapper = FindObjectOfType(typeof(UIIndicatorSwapWeirdCouch)) as UIIndicatorSwapWeirdCouch;
+        couchSwapper = FindObjectOfType(typeof(UIIndicatorSwapCouch)) as UIIndicatorSwapCouch;
+
     }
 
     //Management of Selection and Deselection of Objects, all those that have been placed in the Environment
@@ -42,7 +57,6 @@ public class FurniturePlacer : MonoBehaviour
                     if (CurrentSelected != null && hit.collider.gameObject != CurrentSelected)
                     {
                         Select(hit.collider.gameObject);
-                        //Add reassignment of ui material stuff
                     }
                     else if (CurrentSelected == null)
                     {
@@ -75,10 +89,43 @@ public class FurniturePlacer : MonoBehaviour
     {
         if (CurrentSelected != null)
             ToggleSelectionVisual(CurrentSelected, false);
-
         CurrentSelected = Selected;
         ToggleSelectionVisual(CurrentSelected, true);
         SelectionUI.SetActive(true);
+
+        if(CurrentSelected.tag == "Barstool")
+        {
+            //Change UI Indicators for Barstool
+            //Material yourMaterial = Resources.Load("Wood", typeof(Material)) as Material;
+            //ColorButtonA.GetComponent<Image>().material = material1;
+            barstoolSwapper.setUIMaterial();
+
+
+        } 
+        else if (CurrentSelected.tag == "ClubChair")
+        {
+            //Change UI Indicators for ClubChair
+            //changer.setUIMaterial();
+            clubChairSwapper.setUIMaterial();
+        }
+        else if (CurrentSelected.tag == "Couch")
+        {
+            //Change UI Indicators for Couch
+            //changer.setUIMaterial();
+            couchSwapper.setUIMaterial(); 
+        }
+        else if (CurrentSelected.tag == "WeirdCouch")
+        {
+            //Change UI Indicators for WeirdCouch
+            //changer.setUIMaterial();
+            weirdCouchSwapper.setUIMaterial();
+        }
+        else if (CurrentSelected.tag == "Chest")
+        {
+            //Change UI Indicators for Chest
+            //changer.setUIMaterial();
+            chestSwapper.setUIMaterial();
+        }
     }
 
     //Functio to allow for Deselection of an Object, works with Select Function to allow for switching between different Objects.

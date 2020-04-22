@@ -9,6 +9,10 @@ TagManager:
   - Couches
   - Storage
   - Barstool
+  - Chest
+  - ClubChair
+  - Couch
+  - WeirdCouch
   layers:
   - Default
   - TransparentFX

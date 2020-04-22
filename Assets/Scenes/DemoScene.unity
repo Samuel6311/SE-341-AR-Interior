@@ -1267,6 +1267,7 @@ GameObject:
   - component: {fileID: 280093000}
   - component: {fileID: 280092999}
   - component: {fileID: 280093003}
+  - component: {fileID: 280093004}
   m_Layer: 0
   m_Name: ChairButtonTemplate (1)
   m_TagString: Chairs
@@ -1432,6 +1433,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de29d50e4746cf34ca1a64becdf485aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ColorButton: {fileID: 1645805798}
+  ColorButton1: {fileID: 1108746500}
+  ColorButton2: {fileID: 255112165}
+  ColorButton3: {fileID: 672683157}
+  material: {fileID: 2100000, guid: 639461edcc8289c488d3ed0edbb835c1, type: 2}
+  material1: {fileID: 2100000, guid: cf0b0f4b88cc83446b7972743e5c32c5, type: 2}
+  material2: {fileID: 2100000, guid: b4ff53da3e565b44090d0274724345bd, type: 2}
+  material3: {fileID: 2100000, guid: 4843ad1a20a34f740aaa378091a6839f, type: 2}
+--- !u!114 &280093004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280092997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 224e7c7d8d700884f95cc57b54f5494d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ColorButton: {fileID: 1645805798}
@@ -3766,7 +3787,7 @@ RectTransform:
   m_Father: {fileID: 1250003298}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.36609918}
+  m_AnchorMin: {x: 0, y: 0.3660992}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -4436,6 +4457,7 @@ GameObject:
   - component: {fileID: 1132069952}
   - component: {fileID: 1132069951}
   - component: {fileID: 1132069955}
+  - component: {fileID: 1132069956}
   m_Layer: 0
   m_Name: CouchButtonTemplate (1)
   m_TagString: Couches
@@ -4601,6 +4623,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de29d50e4746cf34ca1a64becdf485aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ColorButton: {fileID: 1645805798}
+  ColorButton1: {fileID: 1108746500}
+  ColorButton2: {fileID: 255112165}
+  ColorButton3: {fileID: 672683157}
+  material: {fileID: 2100000, guid: 639461edcc8289c488d3ed0edbb835c1, type: 2}
+  material1: {fileID: 2100000, guid: cf0b0f4b88cc83446b7972743e5c32c5, type: 2}
+  material2: {fileID: 2100000, guid: b4ff53da3e565b44090d0274724345bd, type: 2}
+  material3: {fileID: 2100000, guid: 4843ad1a20a34f740aaa378091a6839f, type: 2}
+--- !u!114 &1132069956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132069949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a102802b139545944b78b72643d771ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ColorButton: {fileID: 1645805798}
@@ -5303,6 +5345,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlacementIndicator: {fileID: 1974885230}
   SelectionUI: {fileID: 311816484}
+  mat: {fileID: 0}
+  barstoolSwapper: {fileID: 0}
+  chestSwapper: {fileID: 0}
+  clubChairSwapper: {fileID: 0}
+  weirdCouchSwapper: {fileID: 0}
+  couchSwapper: {fileID: 0}
 --- !u!1 &1456375706
 GameObject:
   m_ObjectHideFlags: 0
@@ -6182,6 +6230,7 @@ GameObject:
   - component: {fileID: 1756211784}
   - component: {fileID: 1756211783}
   - component: {fileID: 1756211787}
+  - component: {fileID: 1756211788}
   m_Layer: 0
   m_Name: ChairButtonTemplate
   m_TagString: Chairs
@@ -6290,17 +6339,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1756211787}
-        m_MethodName: setUIMaterial
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1756211785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6347,6 +6385,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de29d50e4746cf34ca1a64becdf485aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ColorButton: {fileID: 1645805798}
+  ColorButton1: {fileID: 1108746500}
+  ColorButton2: {fileID: 255112165}
+  ColorButton3: {fileID: 672683157}
+  material: {fileID: 2100000, guid: 8b7aa4104ad39be41b5f64a5636389fe, type: 2}
+  material1: {fileID: 2100000, guid: 639461edcc8289c488d3ed0edbb835c1, type: 2}
+  material2: {fileID: 2100000, guid: cf0b0f4b88cc83446b7972743e5c32c5, type: 2}
+  material3: {fileID: 2100000, guid: 3c15c400eb4bff54fb414d5c8978063d, type: 2}
+--- !u!114 &1756211788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756211781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0e2174ed12b014bb94cd653437b541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ColorButton: {fileID: 1645805798}
@@ -6676,6 +6734,7 @@ GameObject:
   - component: {fileID: 1843328955}
   - component: {fileID: 1843328954}
   - component: {fileID: 1843328958}
+  - component: {fileID: 1843328959}
   m_Layer: 0
   m_Name: CouchButtonTemplate
   m_TagString: Couches
@@ -6851,6 +6910,26 @@ MonoBehaviour:
   material1: {fileID: 2100000, guid: cf0b0f4b88cc83446b7972743e5c32c5, type: 2}
   material2: {fileID: 2100000, guid: b4ff53da3e565b44090d0274724345bd, type: 2}
   material3: {fileID: 2100000, guid: 4843ad1a20a34f740aaa378091a6839f, type: 2}
+--- !u!114 &1843328959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843328952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce3a9c17c3d7b3144af1437370a360ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ColorButton: {fileID: 1645805798}
+  ColorButton1: {fileID: 1108746500}
+  ColorButton2: {fileID: 255112165}
+  ColorButton3: {fileID: 672683157}
+  material: {fileID: 2100000, guid: 639461edcc8289c488d3ed0edbb835c1, type: 2}
+  material1: {fileID: 2100000, guid: cf0b0f4b88cc83446b7972743e5c32c5, type: 2}
+  material2: {fileID: 2100000, guid: b4ff53da3e565b44090d0274724345bd, type: 2}
+  material3: {fileID: 2100000, guid: 4843ad1a20a34f740aaa378091a6839f, type: 2}
 --- !u!1 &1974046016
 GameObject:
   m_ObjectHideFlags: 0
@@ -6948,6 +7027,7 @@ GameObject:
   - component: {fileID: 1994538215}
   - component: {fileID: 1994538214}
   - component: {fileID: 1994538218}
+  - component: {fileID: 1994538219}
   m_Layer: 0
   m_Name: StorageButtonTemplate
   m_TagString: Storage
@@ -7113,6 +7193,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de29d50e4746cf34ca1a64becdf485aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ColorButton: {fileID: 1645805798}
+  ColorButton1: {fileID: 1108746500}
+  ColorButton2: {fileID: 255112165}
+  ColorButton3: {fileID: 672683157}
+  material: {fileID: 2100000, guid: 8b7aa4104ad39be41b5f64a5636389fe, type: 2}
+  material1: {fileID: 2100000, guid: 0e98fcc07c339294b9c84da13a546aa3, type: 2}
+  material2: {fileID: 2100000, guid: 5248089777b82e548afc5b16831eb6a8, type: 2}
+  material3: {fileID: 2100000, guid: c5cfda4c15a645041923d8af987b4c39, type: 2}
+--- !u!114 &1994538219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994538212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7edb597cb5d8940b09047a6a2b0250, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ColorButton: {fileID: 1645805798}

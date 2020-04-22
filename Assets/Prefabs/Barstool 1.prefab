@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 2759574554522253939}
   m_Layer: 0
   m_Name: Barstool 1
-  m_TagString: Untagged
+  m_TagString: Barstool
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
