@@ -14,16 +14,6 @@ public class UIMaterialChanger : MonoBehaviour
     public Material material2;
     public Material material3;
 
-    /*public void Awake()
-    {
-        GameObject ColorButton = GameObject.Find("Canvas/SelectionInfo/ColorSelection/ColorButton");
-        GameObject ColorButton1 = GameObject.Find("Canvas/SelectionInfo/ColorSelection/ColorButton1");
-        GameObject ColorButton2 = GameObject.Find("Canvas/SelectionInfo/ColorSelection/ColorButton2");
-        GameObject ColorButton3 = GameObject.Find("Canvas/SelectionInfo/ColorSelection/ColorButton3");
-    }*/
-    
-    
-
 
     //Function to take 4 game objects and change the material they have to show in the UI
     public void setUIMaterial()
