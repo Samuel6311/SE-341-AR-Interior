@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class MaterialEditor : MonoBehaviour
 {
-    public GameObject MaterialGroup1Parent;
-    public GameObject MaterialGroup2Parent;
-    public Material[] Group1Material = new Material[4];
-    public Material[] Group2Material = new Material[4];
+    public GameObject MaterialGroupParent;
+    public Material[] GroupMaterial = new Material[4];
 
     // Start is called before the first frame update
     void Start()
@@ -20,15 +18,20 @@ public class MaterialEditor : MonoBehaviour
     {
         
     }
-    
-    //Preconditions: Parent of Objects to apply material to, New Material to be applied
-    public void SetGroupMaterial(GameObject Parent, Material NewMaterial)
+
+    //Preconditions: index of material to be applied
+    public void SetGroupMaterial(int index)
     {
-        Transform[] children;
-        children = Parent.GetComponentsInChildren<Transform>();
-        foreach (Transform child in children)
+        Renderer[] children;
+        children = MaterialGroupParent.GetComponentsInChildren<Renderer>();
+        foreach (Renderer rend in children)
         {
-            child.GetComponent<MeshRenderer>().material = NewMaterial;
+            var mats = new Material[rend.materials.Length];
+            for (var j = 0; j < rend.materials.Length; j++)
+            {
+                mats[j] = GroupMaterial[index];
+            }
+            rend.materials = mats;
         }
     }
 }

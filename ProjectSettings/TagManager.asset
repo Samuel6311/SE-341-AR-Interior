@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Chairs
+  - Couches
+  - Storage
+  - Barstool
+  - Chest
+  - ClubChair
+  - Couch
+  - WeirdCouch
   layers:
   - Default
   - TransparentFX
