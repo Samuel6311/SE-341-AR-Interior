@@ -24,6 +24,7 @@ public class FurniturePlacer : MonoBehaviour
     public Material mat;
 
     //UI Variables
+    //public GameObject barstoolButton;
     public UIIndicatorSwapBarstool barstoolSwapper;
     public UIIndicatorSwapChest chestSwapper;
     public UIIndicatorSwapClubChair clubChairSwapper;
@@ -35,6 +36,7 @@ public class FurniturePlacer : MonoBehaviour
         Cam = Camera.main;
         SelectionUI.SetActive(false);
         barstoolSwapper = FindObjectOfType(typeof(UIIndicatorSwapBarstool)) as UIIndicatorSwapBarstool;
+        //barstoolSwapper = barstoolButton.GetComponent<UIIndicatorSwapBarstool>();
         chestSwapper = FindObjectOfType(typeof(UIIndicatorSwapChest)) as UIIndicatorSwapChest;
         clubChairSwapper = FindObjectOfType(typeof(UIIndicatorSwapClubChair)) as UIIndicatorSwapClubChair;
         weirdCouchSwapper = FindObjectOfType(typeof(UIIndicatorSwapWeirdCouch)) as UIIndicatorSwapWeirdCouch;
@@ -82,7 +84,6 @@ public class FurniturePlacer : MonoBehaviour
         GameObject Obj = Instantiate(prefab, PlacementIndicator.position, Quaternion.identity);
         Furniture.Add(Obj);
         Select(Obj);
-        SetParentFurnitureParent(Obj);
     }
 
     //Functions to allow for Selection of an Object, works with Deselect Function to allow for switching between different Objects.
@@ -92,47 +93,74 @@ public class FurniturePlacer : MonoBehaviour
             ToggleSelectionVisual(CurrentSelected, false);
         CurrentSelected = Selected;
         ToggleSelectionVisual(CurrentSelected, true);
-        SelectionUI.SetActive(true);
-
-        if(CurrentSelected.tag == "Barstool")
+        if (CurrentSelected.tag == "Barstool")
         {
             //Change UI Indicators for Barstool
             //Material yourMaterial = Resources.Load("Wood", typeof(Material)) as Material;
             //ColorButtonA.GetComponent<Image>().material = material1;
-            barstoolSwapper.setUIMaterial();
+            if (barstoolSwapper == null)
+            {
+                barstoolSwapper = FindObjectOfType(typeof(UIIndicatorSwapBarstool)) as UIIndicatorSwapBarstool;
+                barstoolSwapper.setUIMaterial();
+            }
+            else
+                barstoolSwapper.setUIMaterial();
+            //SelectionUI.SetActive(true);
+            //Debug.Log("Hello: ");
 
-
-        } 
-        else if (CurrentSelected.tag == "ClubChair")
+        }
+        if (CurrentSelected.tag == "ClubChair")
         {
             //Change UI Indicators for ClubChair
             //changer.setUIMaterial();
-            clubChairSwapper.setUIMaterial();
+            if (clubChairSwapper == null)
+            {
+                clubChairSwapper = FindObjectOfType(typeof(UIIndicatorSwapClubChair)) as UIIndicatorSwapClubChair;
+                clubChairSwapper.setUIMaterial();
+            }
+            else
+                clubChairSwapper.setUIMaterial();
         }
-        else if (CurrentSelected.tag == "Couch")
+        if (CurrentSelected.tag == "Couch")
         {
             //Change UI Indicators for Couch
             //changer.setUIMaterial();
-            couchSwapper.setUIMaterial(); 
+            if (couchSwapper == null)
+            {
+                couchSwapper = FindObjectOfType(typeof(UIIndicatorSwapCouch)) as UIIndicatorSwapCouch;
+                couchSwapper.setUIMaterial();
+            }
+            else
+                couchSwapper.setUIMaterial();
         }
-        else if (CurrentSelected.tag == "WeirdCouch")
+        if (CurrentSelected.tag == "WeirdCouch")
         {
             //Change UI Indicators for WeirdCouch
             //changer.setUIMaterial();
-            weirdCouchSwapper.setUIMaterial();
+            if (weirdCouchSwapper == null)
+            {
+                weirdCouchSwapper = FindObjectOfType(typeof(UIIndicatorSwapWeirdCouch)) as UIIndicatorSwapWeirdCouch;
+                weirdCouchSwapper.setUIMaterial();
+            }
+            else
+                weirdCouchSwapper.setUIMaterial();
+
         }
-        else if (CurrentSelected.tag == "Chest")
+        if (CurrentSelected.tag == "Chest")
         {
             //Change UI Indicators for Chest
             //changer.setUIMaterial();
-            chestSwapper.setUIMaterial();
+            if (chestSwapper == null)
+            {
+                chestSwapper = FindObjectOfType(typeof(UIIndicatorSwapChest)) as UIIndicatorSwapChest;
+                chestSwapper.setUIMaterial();
+            }
+            else
+                chestSwapper.setUIMaterial();
         }
-    }
+        SelectionUI.SetActive(true);
 
-    void SetParentFurnitureParent(GameObject Selected)
-    {
-        Transform ParentObject = GameObject.Find("FurnitureParent").GetComponent<Transform>();
-        Selected.GetComponent<Transform>().SetParent(ParentObject);
+        
     }
 
     //Functio to allow for Deselection of an Object, works with Select Function to allow for switching between different Objects.

@@ -1156,7 +1156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 1fec2dfae2d4f9948bdaa93876e605a1, type: 2}
   m_Color: {r: 0.7735849, g: 0.759175, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -2421,7 +2421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 54f287d7581c19343904a7f1cf79cc5a, type: 2}
   m_Color: {r: 0.21466713, g: 0.6792453, b: 0.32121065, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -3295,8 +3295,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1026513370}
   m_HandleRect: {fileID: 1026513369}
   m_Direction: 2
-  m_Value: 0.9999999
-  m_Size: 0.63390076
+  m_Value: 1.0000001
+  m_Size: 0.6339008
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3788,7 +3788,7 @@ RectTransform:
   m_Father: {fileID: 1250003298}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.3660992}
+  m_AnchorMin: {x: 0, y: 0.36609918}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -4420,7 +4420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 551748ceaa5a9c04aa1a4317acc322eb, type: 2}
   m_Color: {r: 0.8207547, g: 0.39101994, b: 0.5418428, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -5920,7 +5920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: f4283e9979e8ac04bb5be0bc7cfdc215, type: 2}
   m_Color: {r: 0.06448024, g: 0.40690544, b: 0.6509434, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -6335,6 +6335,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 3438758767253901195, guid: 2ce71b8dc240eb94ca95a9db62d063ce,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1756211787}
+        m_MethodName: setUIMaterial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7014,36 +7025,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 248720835}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1990887545
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1990887546}
-  m_Layer: 0
-  m_Name: FurnitureParent
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1990887546
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1990887545}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1994538212
 GameObject:
   m_ObjectHideFlags: 0
