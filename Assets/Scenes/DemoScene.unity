@@ -2042,6 +2042,7 @@ RectTransform:
   - {fileID: 697272867}
   - {fileID: 2376779429919932939}
   - {fileID: 3196520856568469744}
+  - {fileID: 3196520854893567564}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8525,7 +8526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 1542322801}
+  ToBeSaved: {fileID: 0}
   SaveSlot: {fileID: 0}
   LoadSlot: {fileID: 2376779429414824782}
   iField: {fileID: 0}
@@ -8622,13 +8623,13 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2376779428174890536}
         m_MethodName: LoadFromSlot
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 4
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2376779428195692308
@@ -8699,7 +8700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 1542322801}
+  ToBeSaved: {fileID: 0}
   SaveSlot: {fileID: 0}
   LoadSlot: {fileID: 2376779428395309907}
   iField: {fileID: 0}
@@ -8796,13 +8797,13 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2376779428195692312}
         m_MethodName: LoadFromSlot
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 6
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &2376779428206436128
@@ -8838,7 +8839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 1542322801}
+  ToBeSaved: {fileID: 0}
   SaveSlot: {fileID: 0}
   LoadSlot: {fileID: 2376779429184823899}
   iField: {fileID: 0}
@@ -8899,13 +8900,13 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2376779428206436129}
         m_MethodName: LoadFromSlot
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 5
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2376779428206436133
@@ -9097,7 +9098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 0}
+  ToBeSaved: {fileID: 1446653262}
   SaveSlot: {fileID: 3196520855648701360}
   LoadSlot: {fileID: 2376779429184823899}
   iField: {fileID: 0}
@@ -9224,7 +9225,7 @@ GameObject:
   - component: {fileID: 2376779428321780724}
   - component: {fileID: 2376779428321780725}
   m_Layer: 5
-  m_Name: TextLoad2
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9261,7 +9262,7 @@ GameObject:
   - component: {fileID: 2376779428395309906}
   - component: {fileID: 2376779428395309907}
   m_Layer: 5
-  m_Name: TextLoad6
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9375,7 +9376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 1542322801}
+  ToBeSaved: {fileID: 0}
   SaveSlot: {fileID: 0}
   LoadSlot: {fileID: 2376779428913896618}
   iField: {fileID: 0}
@@ -9472,13 +9473,13 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2376779428409402832}
         m_MethodName: LoadFromSlot
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 3
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &2376779428450031920
@@ -9657,7 +9658,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: There is nothing here to be loaded.
+  m_Text: Are you sure you would like to load (insert name of saved item here)?
 --- !u!224 &2376779428512102537
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9756,7 +9757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 0}
+  ToBeSaved: {fileID: 1446653262}
   SaveSlot: {fileID: 3196520855860427128}
   LoadSlot: {fileID: 2376779428395309907}
   iField: {fileID: 0}
@@ -10174,7 +10175,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: There is nothing here to be loaded.
+  m_Text: Are you sure you would like to load (insert name of saved item here)?
 --- !u!1 &2376779428894390788
 GameObject:
   m_ObjectHideFlags: 0
@@ -10409,7 +10410,7 @@ GameObject:
   - component: {fileID: 2376779428913896617}
   - component: {fileID: 2376779428913896618}
   m_Layer: 5
-  m_Name: TextLoad3
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10696,7 +10697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 1542322801}
+  ToBeSaved: {fileID: 0}
   SaveSlot: {fileID: 0}
   LoadSlot: {fileID: 2376779428321780725}
   iField: {fileID: 0}
@@ -10793,13 +10794,13 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2376779429064787148}
         m_MethodName: LoadFromSlot
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 2
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!222 &2376779429075806356
@@ -10910,7 +10911,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: There is nothing here to be loaded.
+  m_Text: Are you sure you would like to load (insert name of saved item here)?
 --- !u!224 &2376779429116536693
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11074,7 +11075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 0}
+  ToBeSaved: {fileID: 1446653262}
   SaveSlot: {fileID: 3196520855898719800}
   LoadSlot: {fileID: 2376779429450205173}
   iField: {fileID: 0}
@@ -11161,7 +11162,7 @@ GameObject:
   - component: {fileID: 2376779429184823898}
   - component: {fileID: 2376779429184823899}
   m_Layer: 5
-  m_Name: TextLoad5
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11341,7 +11342,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: There is nothing here to be loaded.
+  m_Text: Are you sure you would like to load (insert name of saved item here)?
 --- !u!224 &2376779429247737979
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11527,7 +11528,7 @@ GameObject:
   - component: {fileID: 2376779429414824781}
   - component: {fileID: 2376779429414824782}
   m_Layer: 5
-  m_Name: TextLoad4
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11625,7 +11626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 0}
+  ToBeSaved: {fileID: 1446653262}
   SaveSlot: {fileID: 3196520855461197315}
   LoadSlot: {fileID: 2376779428321780725}
   iField: {fileID: 0}
@@ -11837,7 +11838,7 @@ GameObject:
   - component: {fileID: 2376779429450205172}
   - component: {fileID: 2376779429450205173}
   m_Layer: 5
-  m_Name: TextLoad1
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11973,7 +11974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 0}
+  ToBeSaved: {fileID: 1446653262}
   SaveSlot: {fileID: 3196520856121924339}
   LoadSlot: {fileID: 2376779428913896618}
   iField: {fileID: 0}
@@ -12423,7 +12424,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: There is nothing here to be loaded.
+  m_Text: Are you sure you would like to load (insert name of saved item here)?
 --- !u!224 &2376779429664009629
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12823,13 +12824,13 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2376779429796895079}
         m_MethodName: LoadFromSlot
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 1
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!224 &2376779429796895077
@@ -12885,7 +12886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 1542322801}
+  ToBeSaved: {fileID: 0}
   SaveSlot: {fileID: 0}
   LoadSlot: {fileID: 2376779429450205173}
   iField: {fileID: 0}
@@ -12972,7 +12973,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: There is nothing here to be loaded.
+  m_Text: Are you sure you would like to load (insert name of saved item here)?
 --- !u!224 &2376779429849034053
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13235,7 +13236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 0}
+  ToBeSaved: {fileID: 1446653262}
   SaveSlot: {fileID: 3196520855453739968}
   LoadSlot: {fileID: 2376779429414824782}
   iField: {fileID: 0}
@@ -13852,7 +13853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MenuObject: {fileID: 3196520855219797178}
   MenuObject2: {fileID: 3196520856568469747}
-  MenuObject3: {fileID: 0}
+  MenuObject3: {fileID: 3196520854893567567}
 --- !u!114 &3196520854696865317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13865,7 +13866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 1542322801}
+  ToBeSaved: {fileID: 0}
   SaveSlot: {fileID: 3196520856121924339}
   LoadSlot: {fileID: 2376779428913896618}
   iField: {fileID: 3196520855124826580}
@@ -13885,7 +13886,7 @@ GameObject:
   - component: {fileID: 3196520854696865317}
   - component: {fileID: 3196520854696865316}
   m_Layer: 5
-  m_Name: ConfirmButton3
+  m_Name: ConfirmButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13973,7 +13974,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3196520854696865317}
+      - m_Target: {fileID: 3196520855989387299}
         m_MethodName: SetSlotText
         m_Mode: 1
         m_Arguments:
@@ -13986,11 +13987,11 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 3196520854696865317}
         m_MethodName: SaveToSlot
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -14190,7 +14191,7 @@ GameObject:
   - component: {fileID: 3196520854748079726}
   - component: {fileID: 3196520854748079721}
   m_Layer: 5
-  m_Name: InputField6
+  m_Name: InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14517,7 +14518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 0}
+  ToBeSaved: {fileID: 1446653262}
   SaveSlot: {fileID: 3196520855461197315}
   LoadSlot: {fileID: 2376779428321780725}
   iField: {fileID: 3196520856074523623}
@@ -14653,6 +14654,83 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!222 &3196520854893567410
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520854893567567}
+  m_CullTransparentMesh: 0
+--- !u!224 &3196520854893567564
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520854893567567}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3196520856028303567}
+  - {fileID: 3196520856322079081}
+  - {fileID: 3196520855739606773}
+  - {fileID: 3196520855236454393}
+  m_Father: {fileID: 567207664}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -0.000061035156}
+  m_SizeDelta: {x: 750, y: 1300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3196520854893567565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520854893567567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.33333334, g: 0.44313726, b: 0.99215686, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3196520854893567567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3196520854893567564}
+  - component: {fileID: 3196520854893567410}
+  - component: {fileID: 3196520854893567565}
+  m_Layer: 5
+  m_Name: SavePanel - no longer used, can delete
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &3196520854904475049
 GameObject:
   m_ObjectHideFlags: 0
@@ -14743,7 +14821,7 @@ GameObject:
   - component: {fileID: 3196520854924534471}
   - component: {fileID: 3196520854924534470}
   m_Layer: 5
-  m_Name: InputField4
+  m_Name: InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15103,7 +15181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 1542322801}
+  ToBeSaved: {fileID: 0}
   SaveSlot: {fileID: 3196520855461197315}
   LoadSlot: {fileID: 2376779428321780725}
   iField: {fileID: 3196520856074523623}
@@ -15162,7 +15240,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3196520854980172064}
+      - m_Target: {fileID: 3196520855989387299}
         m_MethodName: SetSlotText
         m_Mode: 1
         m_Arguments:
@@ -15175,11 +15253,11 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 3196520854980172064}
         m_MethodName: SaveToSlot
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -15218,7 +15296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MenuObject: {fileID: 3196520856336310405}
   MenuObject2: {fileID: 3196520856568469747}
-  MenuObject3: {fileID: 0}
+  MenuObject3: {fileID: 3196520854893567567}
 --- !u!114 &3196520854980172070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15270,7 +15348,7 @@ GameObject:
   - component: {fileID: 3196520854980172064}
   - component: {fileID: 3196520854980172067}
   m_Layer: 5
-  m_Name: ConfirmButton2
+  m_Name: ConfirmButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15534,7 +15612,7 @@ GameObject:
   - component: {fileID: 3196520855124826581}
   - component: {fileID: 3196520855124826580}
   m_Layer: 5
-  m_Name: InputField3
+  m_Name: InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15746,7 +15824,7 @@ GameObject:
   - component: {fileID: 3196520855209419935}
   - component: {fileID: 3196520855209419934}
   m_Layer: 5
-  m_Name: ConfirmButton5
+  m_Name: ConfirmButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15826,7 +15904,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3196520855209419935}
+      - m_Target: {fileID: 3196520855989387299}
         m_MethodName: SetSlotText
         m_Mode: 1
         m_Arguments:
@@ -15839,11 +15917,11 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 3196520855209419935}
         m_MethodName: SaveToSlot
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -15890,7 +15968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MenuObject: {fileID: 3196520854706923337}
   MenuObject2: {fileID: 3196520856568469747}
-  MenuObject3: {fileID: 0}
+  MenuObject3: {fileID: 3196520854893567567}
 --- !u!114 &3196520855209419935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15903,7 +15981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 1542322801}
+  ToBeSaved: {fileID: 0}
   SaveSlot: {fileID: 3196520855648701360}
   LoadSlot: {fileID: 2376779429184823899}
   iField: {fileID: 3196520855794441698}
@@ -16062,6 +16140,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3196520855222010743}
   m_CullTransparentMesh: 0
+--- !u!1 &3196520855236454392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3196520855236454393}
+  - component: {fileID: 3196520855236454399}
+  - component: {fileID: 3196520855236454398}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3196520855236454393
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855236454392}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3196520854893567564}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 530}
+  m_SizeDelta: {x: 480, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3196520855236454398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855236454392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 48
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 108
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Save
+--- !u!222 &3196520855236454399
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855236454392}
+  m_CullTransparentMesh: 0
 --- !u!114 &3196520855275061152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16216,6 +16371,83 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!224 &3196520855288671664
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855288671667}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3196520856028303567}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3196520855288671665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855288671667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 42
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 42
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: '    Save Scene'
+--- !u!1 &3196520855288671667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3196520855288671664}
+  - component: {fileID: 3196520855288671670}
+  - component: {fileID: 3196520855288671665}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!222 &3196520855288671670
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855288671667}
+  m_CullTransparentMesh: 0
 --- !u!114 &3196520855289021760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16370,6 +16602,83 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3196520855426232114
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855426232271}
+  m_CullTransparentMesh: 0
+--- !u!224 &3196520855426232268
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855426232271}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3196520855739606773}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3196520855426232269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855426232271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 60
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: X
+--- !u!1 &3196520855426232271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3196520855426232268}
+  - component: {fileID: 3196520855426232114}
+  - component: {fileID: 3196520855426232269}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!114 &3196520855443212482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16499,7 +16808,7 @@ GameObject:
   - component: {fileID: 3196520855453739969}
   - component: {fileID: 3196520855453739968}
   m_Layer: 5
-  m_Name: TextSave4
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16672,7 +16981,7 @@ GameObject:
   - component: {fileID: 3196520855461197312}
   - component: {fileID: 3196520855461197315}
   m_Layer: 5
-  m_Name: TextSave2
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17326,7 +17635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 0}
+  ToBeSaved: {fileID: 1446653262}
   SaveSlot: {fileID: 3196520855648701360}
   LoadSlot: {fileID: 2376779429184823899}
   iField: {fileID: 3196520855794441698}
@@ -17606,7 +17915,7 @@ GameObject:
   - component: {fileID: 3196520855648701361}
   - component: {fileID: 3196520855648701360}
   m_Layer: 5
-  m_Name: TextSave5
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17643,7 +17952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 1542322801}
+  ToBeSaved: {fileID: 0}
   SaveSlot: {fileID: 3196520855898719800}
   LoadSlot: {fileID: 2376779429450205173}
   iField: {fileID: 3196520856478334954}
@@ -17662,7 +17971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MenuObject: {fileID: 3196520855635543233}
   MenuObject2: {fileID: 3196520856568469747}
-  MenuObject3: {fileID: 0}
+  MenuObject3: {fileID: 3196520854893567567}
 --- !u!1 &3196520855697316377
 GameObject:
   m_ObjectHideFlags: 0
@@ -17678,7 +17987,7 @@ GameObject:
   - component: {fileID: 3196520855697316354}
   - component: {fileID: 3196520855697316355}
   m_Layer: 5
-  m_Name: ConfirmButton1
+  m_Name: ConfirmButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17807,15 +18116,160 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 3196520855697316354}
         m_MethodName: SaveToSlot
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &3196520855739606772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3196520855739606773}
+  - component: {fileID: 3196520855739606776}
+  - component: {fileID: 3196520855739606779}
+  - component: {fileID: 3196520855739606778}
+  - component: {fileID: 3196520855739606777}
+  m_Layer: 5
+  m_Name: Exit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3196520855739606773
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855739606772}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3196520855426232268}
+  m_Father: {fileID: 3196520854893567564}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 70, y: -70}
+  m_SizeDelta: {x: 90, y: 90}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3196520855739606776
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855739606772}
+  m_CullTransparentMesh: 0
+--- !u!114 &3196520855739606777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855739606772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b49f61c2315454ba2e1e03455bc461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MenuObject: {fileID: 3196520854893567567}
+  MenuObject2: {fileID: 0}
+  MenuObject3: {fileID: 0}
+--- !u!114 &3196520855739606778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855739606772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 3196520855739606779}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3196520855739606777}
+        m_MethodName: CloseMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3196520855739606779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520855739606772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!114 &3196520855744652984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17947,7 +18401,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3196520855781071571}
+      - m_Target: {fileID: 3196520855989387299}
         m_MethodName: SetSlotText
         m_Mode: 1
         m_Arguments:
@@ -17960,11 +18414,11 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 3196520855781071571}
         m_MethodName: SaveToSlot
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -18011,7 +18465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MenuObject: {fileID: 3196520856396331433}
   MenuObject2: {fileID: 3196520856568469747}
-  MenuObject3: {fileID: 0}
+  MenuObject3: {fileID: 3196520854893567567}
 --- !u!114 &3196520855781071571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18024,7 +18478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 1542322801}
+  ToBeSaved: {fileID: 0}
   SaveSlot: {fileID: 3196520855453739968}
   LoadSlot: {fileID: 2376779429414824782}
   iField: {fileID: 3196520854924534470}
@@ -18052,7 +18506,7 @@ GameObject:
   - component: {fileID: 3196520855781071571}
   - component: {fileID: 3196520855781071570}
   m_Layer: 5
-  m_Name: ConfirmButton4
+  m_Name: ConfirmButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18211,7 +18665,7 @@ GameObject:
   - component: {fileID: 3196520855794441699}
   - component: {fileID: 3196520855794441698}
   m_Layer: 5
-  m_Name: InputField5
+  m_Name: InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18269,7 +18723,7 @@ GameObject:
   - component: {fileID: 3196520855860427129}
   - component: {fileID: 3196520855860427128}
   m_Layer: 5
-  m_Name: TextSave6
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18603,7 +19057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 0}
+  ToBeSaved: {fileID: 1446653262}
   SaveSlot: {fileID: 3196520855860427128}
   LoadSlot: {fileID: 2376779428395309907}
   iField: {fileID: 3196520854748079721}
@@ -18683,7 +19137,7 @@ GameObject:
   - component: {fileID: 3196520855898719801}
   - component: {fileID: 3196520855898719800}
   m_Layer: 5
-  m_Name: TextSave1
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18852,11 +19306,11 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 3196520855989387299}
         m_MethodName: SaveToSlot
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -18903,7 +19357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MenuObject: {fileID: 3196520855222010743}
   MenuObject2: {fileID: 3196520856568469747}
-  MenuObject3: {fileID: 0}
+  MenuObject3: {fileID: 3196520854893567567}
 --- !u!114 &3196520855989387299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18916,7 +19370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 1542322801}
+  ToBeSaved: {fileID: 0}
   SaveSlot: {fileID: 3196520855860427128}
   LoadSlot: {fileID: 2376779428395309907}
   iField: {fileID: 3196520854748079721}
@@ -18944,7 +19398,7 @@ GameObject:
   - component: {fileID: 3196520855989387299}
   - component: {fileID: 3196520855989387298}
   m_Layer: 5
-  m_Name: ConfirmButton6
+  m_Name: ConfirmButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18968,6 +19422,151 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -300.0002}
+  m_SizeDelta: {x: 480, y: 90}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3196520856028303410
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520856028303566}
+  m_CullTransparentMesh: 0
+--- !u!114 &3196520856028303411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520856028303566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b49f61c2315454ba2e1e03455bc461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MenuObject: {fileID: 3196520856568469747}
+  MenuObject2: {fileID: 0}
+  MenuObject3: {fileID: 0}
+--- !u!114 &3196520856028303564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520856028303566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 3196520856028303565}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3196520856028303411}
+        m_MethodName: OpenMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3196520856028303565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520856028303566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3196520856028303566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3196520856028303567}
+  - component: {fileID: 3196520856028303410}
+  - component: {fileID: 3196520856028303565}
+  - component: {fileID: 3196520856028303564}
+  - component: {fileID: 3196520856028303411}
+  m_Layer: 5
+  m_Name: SelectSaveLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3196520856028303567
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520856028303566}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3196520855288671664}
+  m_Father: {fileID: 3196520854893567564}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 120}
   m_SizeDelta: {x: 480, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3196520856031235769
@@ -19347,7 +19946,7 @@ GameObject:
   - component: {fileID: 3196520856074523620}
   - component: {fileID: 3196520856074523623}
   m_Layer: 5
-  m_Name: InputField2
+  m_Name: InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19595,7 +20194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 0}
+  ToBeSaved: {fileID: 1446653262}
   SaveSlot: {fileID: 3196520856121924339}
   LoadSlot: {fileID: 2376779428913896618}
   iField: {fileID: 3196520855124826580}
@@ -19612,7 +20211,7 @@ GameObject:
   - component: {fileID: 3196520856121924336}
   - component: {fileID: 3196520856121924339}
   m_Layer: 5
-  m_Name: TextSave3
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19754,6 +20353,124 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.5}
   m_SizeDelta: {x: -20, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &3196520856322079080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3196520856322079081}
+  - component: {fileID: 3196520856322079084}
+  - component: {fileID: 3196520856322079087}
+  - component: {fileID: 3196520856322079086}
+  m_Layer: 5
+  m_Name: TakeScreenshot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3196520856322079081
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520856322079080}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3196520856470822522}
+  m_Father: {fileID: 3196520854893567564}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 480, y: 90}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3196520856322079084
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520856322079080}
+  m_CullTransparentMesh: 0
+--- !u!114 &3196520856322079086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520856322079080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 3196520856322079087}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &3196520856322079087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520856322079080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &3196520856336310405
 GameObject:
   m_ObjectHideFlags: 0
@@ -20043,7 +20760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 0}
+  ToBeSaved: {fileID: 1446653262}
   SaveSlot: {fileID: 3196520855453739968}
   LoadSlot: {fileID: 2376779429414824782}
   iField: {fileID: 3196520854924534470}
@@ -20302,6 +21019,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3196520856448977111}
   m_CullTransparentMesh: 0
+--- !u!1 &3196520856470822517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3196520856470822522}
+  - component: {fileID: 3196520856470822520}
+  - component: {fileID: 3196520856470822523}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!222 &3196520856470822520
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520856470822517}
+  m_CullTransparentMesh: 0
+--- !u!224 &3196520856470822522
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520856470822517}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3196520856322079081}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3196520856470822523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196520856470822517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 42
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 42
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: '    Take Screenshot (???)'
 --- !u!1 &3196520856478334948
 GameObject:
   m_ObjectHideFlags: 0
@@ -20315,7 +21109,7 @@ GameObject:
   - component: {fileID: 3196520856478334955}
   - component: {fileID: 3196520856478334954}
   m_Layer: 5
-  m_Name: InputField1
+  m_Name: InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20914,7 +21708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3706979f5348dbc49b51d6f7285b6282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToBeSaved: {fileID: 0}
+  ToBeSaved: {fileID: 1446653262}
   SaveSlot: {fileID: 3196520855898719800}
   LoadSlot: {fileID: 2376779429450205173}
   iField: {fileID: 3196520856478334954}
